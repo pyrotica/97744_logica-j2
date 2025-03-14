@@ -3,11 +3,11 @@ import time
 os.system("cls || clear")
 
 
-print("com laço de repetição")
+print("CONTAGEM 100 Á 120 - PARES APENAS")
 print()
-for i in range(10,0,-1):
+for i in range(101, 121,2):
    print(f"o valor da variavel é {i}")
    print()
-   time.sleep(1)
+   time.sleep(0)
 
-print("fim")
+print("fim_for")

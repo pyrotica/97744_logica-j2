@@ -1,0 +1,121 @@
+import os
+import time
+os.system('cls || clear')
+
+numero1=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero1}__________________")
+print()
+for i in range(1, 11):
+    print(numero1, 'X', i, '=', (numero1*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero1}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero2=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero2}__________________")
+print()
+for i in range(1, 11):
+    print(numero2, 'X', i, '=', (numero2*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero2}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+
+numero3=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero3}__________________")
+print()
+for i in range(1, 11):
+    print(numero3, 'X', i, '=', (numero3*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero3}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero4=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero4}__________________")
+print()
+for i in range(1, 11):
+    print(numero4, 'X', i, '=', (numero4*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero4}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero5=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero5}__________________")
+print()
+for i in range(1, 11):
+    print(numero5, 'X', i, '=', (numero5*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero5}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero6=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero6}__________________")
+print()
+for i in range(1, 11):
+    print(numero6, 'X', i, '=', (numero6*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero6}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero7=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero7}__________________")
+print()
+for i in range(1, 11):
+    print(numero7, 'X', i, '=', (numero7*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero7}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero8=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero8}__________________")
+print()
+for i in range(1, 11):
+    print(numero8, 'X', i, '=', (numero8*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero8}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero9=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero9}__________________")
+print()
+for i in range(1, 11):
+    print(numero9, 'X', i, '=', (numero9*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero9}______________")
+print()
+print("////////////////////////////////////////////////////////")
+print()
+
+numero10=int(input("digite o numero: "))
+print(f"__________________TABUADA DO {numero10}__________________")
+print()
+for i in range(1, 11):
+    print(numero10, 'X', i, '=', (numero10*i))
+    time.sleep(0.1)
+print()
+print(f"______________FIM DA TABUADA DO {numero10}______________")
