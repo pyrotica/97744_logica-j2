@@ -3,6 +3,7 @@ os.system("cls || clear")
 
 senha_cadastrada="1234"
 
+
 while True:
     senha=str(input("digite a senha: "))
 
