@@ -1,5 +1,6 @@
 import os
 os.system("cls || clear")
+opcao = 0
 print("""
 ==========================MENU==========================
 
@@ -10,11 +11,11 @@ CODIGO:                   RESULTADO:
    3 -                      SAIR
   """)
 print()
-opcao = 0
+
 while True:
     
     print()
-    opcao = str(input("Digite a opçãp: "))
+    opcao = str(input("Digite a opção: "))
     
     if opcao == '1':
          print()
