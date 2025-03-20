@@ -11,4 +11,4 @@ while True:
         break
     else:
         soma += numero
-        print(f" Valor atual da soma: {soma}")
+        print(f"O valor atual da soma: {soma}")

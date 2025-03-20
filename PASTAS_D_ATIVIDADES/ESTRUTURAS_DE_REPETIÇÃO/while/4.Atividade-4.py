@@ -7,9 +7,10 @@ while True:
     idade = int(input("Digite a idade: "))
     
     if idade >= 18 and idade<=60:
+        print()
         print("""CONTUDO LIBERADO   
               
-        ⠀⣀⣀⣤⣤⣤⣤⣄⣀⣀⠀⠀⢀⣀⣀⣠⣤⣤⣤⣴⣤⣀⠀
+⣀⣀⣤⣤⣤⣤⣄⣀⣀⠀⠀⢀⣀⣀⣠⣤⣤⣤⣴⣤⣀⠀
 ⠘⠟⠋⢉⣠⣤⣭⣭⠭⡍⠀⠀⠀⢩⠭⣭⣭⣤⣄⡈⠙⠻⠂
 ⠀⠀⠴⠯⢽⣿⡿⣹⣍⠟⠀⠀⠀⠻⠸⠏⠿⠿⠧⡽⠂⠀⠀
               
@@ -22,5 +23,6 @@ while True:
         print()
         break
     else:
+        print()
         print(" CONTEUDO NEGADO")
         print()

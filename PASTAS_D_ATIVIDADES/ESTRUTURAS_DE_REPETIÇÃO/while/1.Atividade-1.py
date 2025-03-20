@@ -3,10 +3,12 @@ os.system("cls || clear")
 
 
 while True:
-    num=int(input("digite um numero positivo: "))
+    num=int(input("digite um numero: "))
 
     if num <0:
-        print("Numero negativo inserido, codigo encerrado")
+        print(f"{num} é um Numero negativo, codigo encerrado")
         break
+    elif num == 0:
+     print("zero")
     else:
-        print("numero positivo")
+        print(f"{num} é um numero positivo")
