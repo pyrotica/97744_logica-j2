@@ -11,4 +11,6 @@ while True:
     elif num == 0:
      print("zero")
     else:
-        print(f"{num} é um numero positivo")
+        print("numero positivo")
+print()
+
