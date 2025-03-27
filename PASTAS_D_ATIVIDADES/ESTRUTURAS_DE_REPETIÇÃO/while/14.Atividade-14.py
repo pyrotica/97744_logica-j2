@@ -12,9 +12,8 @@ while True:
     nota=int(input("digite uma nota: "))
     print()
     
-    
     if nota == 0:
-       print("ZERO INSERIDO, CODIGO ENCERRADO")
+       print("\nZERO INSERIDO, CODIGO ENCERRADO")
        print()
        break
     else:
@@ -28,16 +27,20 @@ while True:
         contador_par+=1
     else:
         impares+=1
+        
+if contador > 0:
+    media_geral= soma/contador
+    media_par= soma_par/contador_par
 
-media_geral= soma/contador
-media_par= soma_par/contador_par
+    print(f"A quantidade de pares é {pares}")
+    print()
+    print(f"A quantidade de impares é {impares}")
+    print()
+    print(f"soma é {soma}")
+    print()
+    print(f"media geral é {media_par:.2f}")
+    print()
+    print(f"media geral é {media_geral:.2f}")
 
-print(f"A quantidade de pares é {pares}")
-print()
-print(f"A quantidade de impares é {impares}")
-print()
-print(f"soma é {soma}")
-print()
-print(f"media geral é {media_geral:.2f}")
-print()
-print(f"media geral é {media_par:.2f}")
+else:
+    print("\nNÃO A EXISTENCIA DE NEM UM NUMERO REAL")
