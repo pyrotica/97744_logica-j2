@@ -43,7 +43,7 @@ while True:
             velho=max(idade_pessoa)
             novo=min(idade_pessoa)
         case 2:
-            print(f"a qauntidade de pessoas são {pessoas}")
+            print(f"a quantidade de pessoas são {pessoas}")
             print(f"o mais velho tem {velho}")
             print(f"o mais novo tem {novo}")
             print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
