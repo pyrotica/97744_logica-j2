@@ -19,7 +19,6 @@ while True:
     else:
        soma += nota 
        contador+=1
-     
 
     if nota % 2 ==0:
         soma_par+=nota
@@ -27,7 +26,7 @@ while True:
         contador_par+=1
     else:
         impares+=1
-        
+                                                                                                                                                                                                                                                                                                                                                                                                                                        
 if contador > 0:
     media_geral= soma/contador
     media_par= soma_par/contador_par
