@@ -6,6 +6,7 @@ impares=0
 pares=0
 contador=0
 contador_par=0
+soma_par=0
 
 while True:
     nota=int(input("digite uma nota: "))
@@ -22,15 +23,15 @@ while True:
      
 
     if nota % 2 ==0:
+        soma_par+=nota
         pares+=1
         contador_par+=1
     else:
         impares+=1
 
 media_geral= soma/contador
-media_par= pares/contador_par
+media_par= soma_par/contador_par
 
-print()
 print(f"A quantidade de pares é {pares}")
 print()
 print(f"A quantidade de impares é {impares}")
