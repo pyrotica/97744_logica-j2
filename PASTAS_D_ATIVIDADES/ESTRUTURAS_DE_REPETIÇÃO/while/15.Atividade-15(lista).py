@@ -5,8 +5,8 @@ os.system("cls || clear")
 mulher_rica=0
 pessoas=0
 salario_total=0
-velho=0
-novo=float('inf')
+media_salarial_total=0
+idade_pessoa=[]
 while True:  
  print("""
     ================= MENU =================
@@ -25,7 +25,7 @@ while True:
             print()
             pessoas+=1
             sexo=str(input("digite o sexo| \n(F) para feminivo \n(M) para masculino \nRª:")).upper()
-            idade=int(input("digite a idade do individuo: "))
+            idade=str(input("digite a idade do individuo: "))
             if sexo == "F":
                 salario_feminino=int(input("digite o seu salario: "))
                 salario_total+=salario_feminino
@@ -39,21 +39,14 @@ while True:
              salario_total+=salario
              print()
              
-            if idade > velho:
-               velho=idade
-            if idade < novo:
-               novo=idade  
-
-            media_salarial_total=salario_total/pessoas
-
+            idade_pessoa.append(idade)    
+            velho=max(idade_pessoa)
+            novo=min(idade_pessoa)
         case 2:
             print(f"a quantidade de pessoas são {pessoas}")
             print(f"o mais velho tem {velho}")
             print(f"o mais novo tem {novo}")
             print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
-            print(f"o salario total da familia é R${salario_total}")
-            print(f"A media salarial da familia é R${media_salarial_total}")
-            
         case 3:
          print("saiu...")
          break
