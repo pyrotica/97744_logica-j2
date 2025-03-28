@@ -6,6 +6,7 @@ mulher_rica=0
 pessoas=0
 salario_total=0
 media_salarial_total=0
+
 idade_pessoa=[]
 while True:  
  print("""
@@ -13,7 +14,6 @@ while True:
     1 |\t Adicionar pessoa
     2 |\t Exibir resultados
     3 |\t Sair
-   
           """)
  print()   
  opcao = int(input("Digite o número da opção desejada: "))
@@ -43,12 +43,19 @@ while True:
             velho=max(idade_pessoa)
             novo=min(idade_pessoa)
         case 2:
-            print(f"a quantidade de pessoas são {pessoas}")
-            print(f"o mais velho tem {velho}")
-            print(f"o mais novo tem {novo}")
-            print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
-            print(f"o salario total da familia é R${salario_total}")
-            print(f"A media salarial da familia é R${media_salarial_total}")
+            if pessoas> 0:
+             print(f"a quantidade de pessoas são {pessoas}")
+             print(f"o mais velho tem {velho}")
+             print(f"o mais novo tem {novo}")
+             print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
+             print(f"o salario total da familia é R${salario_total}")
+             print(f"A media salarial da familia é R${media_salarial_total}")
+             time.sleep(5)
+             os.system("cls || clear")
+            else:
+               print("Não a registros no banco de dados \nespere 3 segundos")
+               time.sleep(3)
+               os.system("cls || clear")
         case 3:
          print("saiu...")
          break
