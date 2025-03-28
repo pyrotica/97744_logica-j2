@@ -45,15 +45,22 @@ while True:
                novo=idade  
 
             media_salarial_total=salario_total/pessoas
-
+            os.system("cls || clear")
         case 2:
-            print(f"a quantidade de pessoas são {pessoas}")
-            print(f"o mais velho tem {velho}")
-            print(f"o mais novo tem {novo}")
-            print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
-            print(f"o salario total da familia é R${salario_total}")
-            print(f"A media salarial da familia é R${media_salarial_total}")
-            
+            if pessoas> 0:
+             print(f"a quantidade de pessoas são {pessoas}")
+             print(f"o mais velho tem {velho}")
+             print(f"o mais novo tem {novo}")
+             print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
+             print(f"o salario total da familia é R${salario_total}")
+             print(f"A media salarial da familia é R${media_salarial_total}")
+             time.sleep(5)
+             os.system("cls || clear")
+            else:
+               print("Não a registros no banco de dados \nespere 3 segundos")
+               time.sleep(3)
+               os.system("cls || clear")
+
         case 3:
          print("saiu...")
          break

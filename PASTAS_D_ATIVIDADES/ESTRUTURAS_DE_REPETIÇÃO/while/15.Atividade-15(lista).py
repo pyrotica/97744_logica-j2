@@ -47,6 +47,8 @@ while True:
             print(f"o mais velho tem {velho}")
             print(f"o mais novo tem {novo}")
             print(f"a quantidade de mulheres que ganham 5k são {mulher_rica}")
+            print(f"o salario total da familia é R${salario_total}")
+            print(f"A media salarial da familia é R${media_salarial_total}")
         case 3:
          print("saiu...")
          break
